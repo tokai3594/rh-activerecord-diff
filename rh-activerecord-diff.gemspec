@@ -29,4 +29,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency('activerecord', '< 7.2.0','>= 5.2.0')
   spec.add_development_dependency('concurrent-ruby', '1.3.4')
+  spec.add_development_dependency('mutex_m')
+  spec.add_development_dependency('base64')
+  spec.add_development_dependency('bigdecimal')
 end
